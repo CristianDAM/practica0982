@@ -99,4 +99,14 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    /**
+     * Mover puesta de sol
+     */
+    public void moveSun()
+    {
+        sun.slowMoveVertical(120);
+        
+    }   
 }
+
+
