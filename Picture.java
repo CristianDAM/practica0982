@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
    private Square floor;
+   private Person cristian;
   
 
     /**
@@ -112,7 +113,30 @@ public class Picture
         floor.changeColor("black");
        
         
-    }   
-}
+    } 
+     /**
+     * Mover puesta de sol
+     */
+    public void appear()
+    {
+        cristian = new Person();
+        cristian.moveHorizontal(-250);
+        cristian.moveVertical(30);
+        cristian.makeVisible();
+        cristian.slowMoveHorizontal(100);
+        cristian.makeVisible();
+        
+    
+    
+    
+    
+    
+    }
+
+   
+       
+   }
+    
+    
 
 
