@@ -105,6 +105,12 @@ public class Picture
     public void moveSun()
     {
         sun.slowMoveVertical(120);
+        roof.changeColor("black");
+        sun.changeColor("black");
+        wall.changeColor("black");
+        window.changeColor("white");
+        floor.changeColor("black");
+       
         
     }   
 }
